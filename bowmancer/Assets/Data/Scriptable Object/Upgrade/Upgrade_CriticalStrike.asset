@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fb0ff3002b9c44ba44544534ee8bbb, type: 3}
+  m_Name: Upgrade_CriticalStrike
+  m_EditorClassIdentifier: 
+  upgradeName: Critical Strike
+  upgradeIcon: {fileID: 21300000, guid: 5692db8a476a44e039316aeecbe16bc6, type: 3}
+  description: You attack can x2 Damage
+  category: 0
+  maxLevel: 99
+  canStack: 1
+  baseCritChance: 0.2
+  critChancePerLevel: 0.1
+  baseCritMultiplier: 2
+  critMultiplierPerLevel: 0
+  critColor: {r: 1, g: 0.5, b: 0, a: 1}

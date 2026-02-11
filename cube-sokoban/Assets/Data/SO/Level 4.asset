@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 277f9f92d8308034aa39f2c0db6475b1, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  level:
+    levelID: 4
+    levelPrefabs: {fileID: 3945078707316998513, guid: 896b338357280ba4fa5ef70697136646, type: 3}
+    requiredGoals: 2
+    lensScale: 4

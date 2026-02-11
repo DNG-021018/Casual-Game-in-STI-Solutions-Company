@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 43214ead2dc546d47af748b8f33d311a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243843
+  packageName: WNC - Isometric Tiles Creator
+  packageVersion: 1.01
+  assetPath: Assets/Wand and Circles/WNC - Isometric Tiles Creator/Materials/VFX/VFX
+    - Smoke 2.mat
+  uploadId: 569919

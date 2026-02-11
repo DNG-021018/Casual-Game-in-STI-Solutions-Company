@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a8d45fae423c94b95e63ebd482583e, type: 3}
+  m_Name: Skin Config
+  m_EditorClassIdentifier: 
+  skinConfig:
+  - ID: 1
+    visual: {fileID: 3300414401911020421, guid: 626fbef496d7f8f4fbfa79f9eee213f8, type: 3}
+    icon: {fileID: 21300000, guid: d8c209bc4aa503c4380935c4c3ce751e, type: 3}
+    displayName: Chicken
+    isDefaultSkin: 1
+    isUnlock: 1
+  - ID: 2
+    visual: {fileID: 8686724140663514153, guid: 83e667ebee3090f479af15c3292ca2ca, type: 3}
+    icon: {fileID: 21300000, guid: 8da659bc34dc60c468a6b0b9373a5661, type: 3}
+    displayName: Bear
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 3
+    visual: {fileID: 8093079349393358898, guid: 06f1c88d08ced2743ac0616a57726de0, type: 3}
+    icon: {fileID: 21300000, guid: 37914a3ec273d2d4a94c01dedc067b6c, type: 3}
+    displayName: Cow
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 4
+    visual: {fileID: 7381915374267224342, guid: 32bc71734b02e03429163a10aa2249bd, type: 3}
+    icon: {fileID: 21300000, guid: 4cc320cafa44d884bbb7d77b4f8ca2e7, type: 3}
+    displayName: Goat
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 5
+    visual: {fileID: 1950699749861744526, guid: 937b6a6d2f3415f409419814dddae07a, type: 3}
+    icon: {fileID: 21300000, guid: 96ca701a2cdebb444b6fb66dfecd993e, type: 3}
+    displayName: Lion
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 6
+    visual: {fileID: 3838889549183337083, guid: 622fa0b6d825f7b4880aadf975e3307b, type: 3}
+    icon: {fileID: 21300000, guid: f3389f71aa7215642a6a6c1d6abe5779, type: 3}
+    displayName: Parrot
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 7
+    visual: {fileID: 1351107066800487154, guid: f9b280091cc34564f86e5463e93ef03c, type: 3}
+    icon: {fileID: 21300000, guid: 2740ac3ccc6af5744a32805d9634a887, type: 3}
+    displayName: Pig
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 8
+    visual: {fileID: 8528350971476988494, guid: 2adf69d05292f4047b793ea214bc1588, type: 3}
+    icon: {fileID: 21300000, guid: 05aeb0659cffeee40b05b818337e5f6c, type: 3}
+    displayName: Polar Bear
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 9
+    visual: {fileID: 7921843464010844618, guid: 6453d0db6a8afce4c9c830d0d44ca559, type: 3}
+    icon: {fileID: 21300000, guid: a47b50571146cbf4a955d706db6cb217, type: 3}
+    displayName: Rabbit
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 10
+    visual: {fileID: 3519753791948501936, guid: 94efcb5d441a30848b8aad2562964b6e, type: 3}
+    icon: {fileID: 21300000, guid: 084ca10fd3cd9564985c70e199d029c0, type: 3}
+    displayName: Raindeer
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 11
+    visual: {fileID: 2238131597775883690, guid: 7726ebcca637db949a21a9222438bcaa, type: 3}
+    icon: {fileID: 21300000, guid: ce0dac7df3f2250498cda47da2369fa9, type: 3}
+    displayName: Rat
+    isDefaultSkin: 0
+    isUnlock: 0
+  - ID: 12
+    visual: {fileID: 4125641333827257770, guid: eb394b761923e604899d02cabcdeb5e9, type: 3}
+    icon: {fileID: 21300000, guid: dbbf7bbab2232fd49869aa36527be398, type: 3}
+    displayName: Wolf
+    isDefaultSkin: 0
+    isUnlock: 0

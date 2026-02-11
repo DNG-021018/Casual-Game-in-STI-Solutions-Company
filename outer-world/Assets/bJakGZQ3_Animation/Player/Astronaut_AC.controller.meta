@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f858ecc34ac90f046a4303a761eb61dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200599
+  packageName: Cute Astronauts
+  packageVersion: 1.5
+  assetPath: Assets/Cute Astronauts/Anims/Astronaut_AC.controller
+  uploadId: 703466

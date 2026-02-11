@@ -1,0 +1,27 @@
+Vertiblock Pass
+Roll to move - Stand to solve.
+Welcome to VertiBlock Pass, a minimalist and challenging 3D puzzle game where logic and spatial awareness are your only keys. You don't control a character; you control a special block with two states: "Lying" (occupying 2 grids) or "Standing" (occupying 1 grid). Your mission is to roll this block through suspended mazes to reach the goal hole. But be warned: every move must be calculated to ensure your block fits the goal in its "Standing" state. One wrong flip, and you fall into the void.
+Key Features of VertiBlock Pass
+The Core Stand/Lie Mechanic: All gameplay revolves around the block's two states. The "Lying" (1x2) state lets you cross fragile, weak tiles, while the "Standing" (1x1) state is required to trigger specific switches and pass the level.
+Interactive Switch System: Plan your path to activate the right switches. 'O' switches activate when pressed by either state, but challenging 'X' switches only respond if your block is "Standing" precisely on them.
+The Split-Block Puzzles: Activate special tiles to divide your block into two separate pieces! You must constantly swap control between them, maneuvering them independently to solve complex cooperative puzzles.
+The "Perfect Fit" Goal: Reaching the destination isn't enough. Victory is only achieved when your block drops perfectly into the 1x1 goal hole in its "Standing" state. Every calculation leads to this final moment.
+Swipe to roll and flip the block.
+Do you have the logic to calculate every state? Can you see the path and conquer these spatial challenges? It's time to test your mind.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

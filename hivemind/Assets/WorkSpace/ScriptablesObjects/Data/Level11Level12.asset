@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d11b28581dd97242ade781f7fd144a7, type: 3}
+  m_Name: Level11Level12
+  m_EditorClassIdentifier: 
+  levelDefine: 0b0000000c000000
+  mapPrefabs: {fileID: 5341273875663405831, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+  listMapLevel:
+  - level: 11
+    tilemap: {fileID: 4167103128777429950, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+    spawnPoint1: {fileID: 452501426601660039, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+    spawnPoint2: {fileID: 2603365550672754201, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+  - level: 12
+    tilemap: {fileID: 9082295697637385767, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+    spawnPoint1: {fileID: 3899543669348446359, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}
+    spawnPoint2: {fileID: 2566564213382053857, guid: 1fd49765c6b2059429d0c4ec10b2db88, type: 3}

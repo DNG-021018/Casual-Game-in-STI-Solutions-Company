@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e129f6b298b6b4c459673ced26ebbed7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp:bJakGZQ3_Outer_World:ItemDatabase
+  entries:
+  - {fileID: 3301771742684234550, guid: 13d6dd87f2e7b3f41af97b2898079e54, type: 3}
+  - {fileID: 4990677113897176837, guid: 2d50f50e343def6438bf88dc0697debb, type: 3}
+  - {fileID: 7961258368770889147, guid: e00cf787c57039f46a752fd3d7a65c89, type: 3}
+  - {fileID: 1592766967293821880, guid: 07410bd2dcc897340bba3adaeb5317e5, type: 3}
+  - {fileID: 7198611613768507856, guid: c7dfbd941018aad49932b8f333518aa2, type: 3}

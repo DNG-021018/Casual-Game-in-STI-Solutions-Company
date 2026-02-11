@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d11b28581dd97242ade781f7fd144a7, type: 3}
+  m_Name: Level10
+  m_EditorClassIdentifier: 
+  levelDefine: 0a000000
+  mapPrefabs: {fileID: 6535528157485739401, guid: 424c9313520e903429f63bcff4b702eb, type: 3}
+  listMapLevel:
+  - level: 10
+    tilemap: {fileID: 6842929358280642038, guid: 424c9313520e903429f63bcff4b702eb, type: 3}
+    spawnPoint1: {fileID: 4184166419163948942, guid: 424c9313520e903429f63bcff4b702eb, type: 3}
+    spawnPoint2: {fileID: 8877023232331154343, guid: 424c9313520e903429f63bcff4b702eb, type: 3}

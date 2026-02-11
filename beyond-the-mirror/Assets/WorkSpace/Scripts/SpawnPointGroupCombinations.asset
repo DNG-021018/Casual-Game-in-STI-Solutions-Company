@@ -1,0 +1,2015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9523bb13a6d1345999f690caaec6f3, type: 3}
+  m_Name: SpawnPointGroupCombinations
+  m_EditorClassIdentifier: 
+  allCombinations:
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 1
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 0}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 1
+      obstacleDefinitions: {fileID: 11400000, guid: 684e348803a9b9e4f9a927ea4aa4b046, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 2
+      obstacleDefinitions: {fileID: 11400000, guid: 32091f0b5e3e9a14ab187422e7041bb5, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 4
+      obstacleDefinitions: {fileID: 11400000, guid: 92688dbba3fa08845af6defc90819b99, type: 2}
+    isGateCombo: 0
+  - left:
+      name: Left
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    center:
+      name: Center
+      category: 0
+      aliveType: 3
+      obstacleDefinitions: {fileID: 11400000, guid: 7655a3f1c99cf214dbadbcacc69c9e83, type: 2}
+    right:
+      name: Right
+      category: 0
+      aliveType: 0
+      obstacleDefinitions: {fileID: 11400000, guid: 1553d73df8d498846a80ec27e1c91a46, type: 2}
+    isGateCombo: 1

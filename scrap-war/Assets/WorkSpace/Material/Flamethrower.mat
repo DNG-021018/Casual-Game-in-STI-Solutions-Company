@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6486854706885989044
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Flamethrower
+  m_Shader: {fileID: 4800000, guid: 35b95f80d573dd54f8ef5e8cd1d2611f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NOISEDILATIONENABLED_ON
+  - _NOISEDISTORTIONDILATIONENABLED_ON
+  - _NOISEDISTORTIONENABLED_ON
+  - _NOISEXZTWISTENABLED_ON
+  - _OBJECTSPACEUVS_ON
+  - _RADIALMASKDISTORTIONDILATIONENABLED_ON
+  - _RADIALMASKDISTORTIONENABLED_ON
+  - _RADIALMASKSUBTRACTIVE_ON
+  - _VERTEXNOISEENABLED_ON
+  - _VERTEXWAVEENABLED_ON
+  - _VERTICALCOLOUR_ON
+  - _VERTICALMASK1SUBTRACTIVE_ON
+  - _VERTICALMASK1_ON
+  - _VERTICALMASK2_ON
+  - _VERTICALMASKSOBJECTSPACE_ON
+  m_InvalidKeywords:
+  - _MASKDISTORTIONDILATIONENABLED_ON
+  - _VERTICALMASKOBJECTSPACE_ON
+  - _VERTICALMASK_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdditionalLights: 1
+    - _AdditionalLightsNormalfromHeight: 1
+    - _AdditionalLightsTranslucency: 1
+    - _AdditionalLightsTranslucencyEnabled: 0
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _CameraDepthFadeLength: 0
+    - _CameraDepthFadeOffset: 0
+    - _CameraDepthFadePower: 1
+    - _ColourHueShift: 0
+    - _ColourPower: 1
+    - _ColourSaturationShift: 0
+    - _ColourValueMultiplier: 5
+    - _DepthFade: 0.5
+    - _DepthFadePower: 1
+    - _EndFoldoutBaseUVs: 0
+    - _EndFoldoutColour: 0
+    - _EndFoldoutDepthFade: 0
+    - _EndFoldoutFresnelMask: 0
+    - _EndFoldoutLighting: 0
+    - _EndFoldoutNoise: 0
+    - _EndFoldoutNoiseDistortion: 0
+    - _EndFoldoutParticleSettings: 0
+    - _EndFoldoutRadialMask: 0
+    - _EndFoldoutRadialMaskDistortion: 0
+    - _EndFoldoutSpherizeNoise: 0
+    - _EndFoldoutVertexNoise: 0
+    - _EndFoldoutVertexNormalOffset: 0
+    - _EndFoldoutVertexOffsetoverY: 0
+    - _EndFoldoutVertexUVOffset: 0
+    - _EndFoldoutVertexWave: 0
+    - _EndFoldoutVertexWaveNoiseVerticalMask: 0
+    - _EndFoldoutVerticalColour: 0
+    - _EndFoldoutVerticalMasks: 0
+    - _Float0: 0.76
+    - _Float1: 0
+    - _FresnelMask: 0
+    - _FresnelMaskPower: 2
+    - _FresnelMaskRemapMax: 1
+    - _FresnelMaskRemapMin: 0
+    - _InvertDepthFade: 0
+    - _LightingEnabled: 0
+    - _MainLight: 1
+    - _Mask: 0
+    - _MaskDistortion: 0.05
+    - _MaskDistortionDilation: 0.004
+    - _MaskDistortionDilationEnabled: 1
+    - _MaskDistortionEnabled: 0
+    - _MaskDistortionOctaves: 1
+    - _MaskDistortionPower: 1
+    - _MaskDistortionScale: 2
+    - _MaskFeather: 1
+    - _MaskPower: 1
+    - _MaskRadius: 1
+    - _MaskRadiusoverParticleLifetime: 0
+    - _Noise: 1
+    - _NoiseDilation: 0.04
+    - _NoiseDilationEnabled: 1
+    - _NoiseDistortion: 0.05
+    - _NoiseDistortionDilation: 0.004
+    - _NoiseDistortionDilationEnabled: 1
+    - _NoiseDistortionEnabled: 1
+    - _NoiseDistortionOctaves: 1
+    - _NoiseDistortionPower: 1
+    - _NoiseDistortionScale: 1
+    - _NoiseOctaves: 1
+    - _NoiseParallaxOffset: 0
+    - _NoisePower: 2
+    - _NoiseRemapMax: 1
+    - _NoiseRemapMin: 0
+    - _NoiseScale: 2
+    - _NoiseUVTwist: 0
+    - _NoiseUVYOffset: -1
+    - _NoiseUVYPower: 2
+    - _NoiseUVYPowerb: 1
+    - _NoiseUVYPreOffset: -1
+    - _NoiseUVYPrePower: 0.4
+    - _NoiseUVYPreScale: 5
+    - _NoiseUVYScale: 0.5
+    - _NoiseXZTwist: 0
+    - _NoiseXZTwistEnabled: 1
+    - _ObjectSpaceUVs: 1
+    - _ParticleRandomization: 1
+    - _ParticleSubtractNoiseoverLifetime: 0
+    - _ParticleSubtractoverLifetime: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RadialMask: 0
+    - _RadialMaskDistortion: 0.05
+    - _RadialMaskDistortionDilation: 0.004
+    - _RadialMaskDistortionDilationEnabled: 1
+    - _RadialMaskDistortionEnabled: 1
+    - _RadialMaskDistortionOctaves: 1
+    - _RadialMaskDistortionPower: 1
+    - _RadialMaskDistortionScale: 2
+    - _RadialMaskFeather: 1
+    - _RadialMaskPower: 1
+    - _RadialMaskRadius: 1
+    - _RadialMaskRadiusOverParticleLifetime: 0
+    - _RadialMaskRadiusoverParticleLifetime: 0
+    - _RadialMaskSize: 1
+    - _RadialMaskSizeOverParticleLifetime: 0
+    - _RadialMaskSizeoverParticleLifetime: 0
+    - _RadialMaskSubtractive: 1
+    - _ReceiveShadows: 1
+    - _Spherize: 0
+    - _SpherizeNoise: 0
+    - _SpherizeNoiseRadius: 0.5
+    - _SpherizeNoiseStrength: 1
+    - _SpherizeRadius: 0.5
+    - _SpherizeStrength: 1
+    - _StartFoldoutBaseUVs: 0
+    - _StartFoldoutColour: 0
+    - _StartFoldoutDepthFade: 0
+    - _StartFoldoutFresnelMask: 0
+    - _StartFoldoutLighting: 0
+    - _StartFoldoutNoise: 0
+    - _StartFoldoutNoiseDistortion: 0
+    - _StartFoldoutParticleSettings: 0
+    - _StartFoldoutRadialMask: 0
+    - _StartFoldoutRadialMaskDistortion: 0
+    - _StartFoldoutSpherizeNoise: 0
+    - _StartFoldoutVertexNoise: 0
+    - _StartFoldoutVertexNormalOffset: 0
+    - _StartFoldoutVertexOffsetoverY: 0
+    - _StartFoldoutVertexUVOffset: 0
+    - _StartFoldoutVertexWave: 0
+    - _StartFoldoutVertexWaveNoiseVerticalMask: 0
+    - _StartFoldoutVerticalColour: 0
+    - _StartFoldoutVerticalMasks: 0
+    - _SubtractiveDepthFade: 0
+    - _SubtractiveDepthFadePower: 1
+    - _SwapUVXY: 0
+    - _TessPhongStrength: 0.5
+    - _Tessellation: 64
+    - _TransformDeltaVerticalMaskPower: 2
+    - _UVTwist: 249
+    - _VertexColourHueShift: 0
+    - _VertexColourSaturationShift: 0
+    - _VertexNoise: 0.1
+    - _VertexNoiseDilation: 0.05
+    - _VertexNoiseDilationEnabled: 0
+    - _VertexNoiseEnabled: 1
+    - _VertexNoiseOctaves: 2
+    - _VertexNoiseScale: 1.5
+    - _VertexNoiseTwist: 35
+    - _VertexNoiseTwist1: 180
+    - _VertexNormalOffset: 0
+    - _VertexNormalOffsetBottom: -0.5
+    - _VertexNormalOffsetBottomPower: 1
+    - _VertexNormalOffsetPower: 2
+    - _VertexNormalOffsetTop: 0
+    - _VertexNormalOffsetTopPower: 1
+    - _VertexOffsetOverCircularYPower: 1
+    - _VertexOffsetOverY1Circular: 0
+    - _VertexOffsetOverY1Power: 1
+    - _VertexOffsetOverY2Circular: 0
+    - _VertexOffsetOverY2Power: 8
+    - _VertexOffsetOverY3Circular: 0
+    - _VertexOffsetOverY3Power: 1
+    - _VertexOffsetTop: 0
+    - _VertexOffsetTopPower: 1
+    - _VertexOffsetoverY1Power: 2
+    - _VertexOffsetoverY2Power: 2
+    - _VertexOffsetoverYPower: 2
+    - _VertexPinch: 0
+    - _VertexPinchBottom: 0
+    - _VertexPinchBottomPower: 1
+    - _VertexPinchPower: 1
+    - _VertexPinchTop: 0
+    - _VertexPinchTopPower: 1
+    - _VertexTwist: 0
+    - _VertexUVOffsetBottom: 0
+    - _VertexUVOffsetBottomPower: 1
+    - _VertexUVOffsetTop: 0
+    - _VertexUVOffsetTopPower: 1
+    - _VertexWave: 0.1
+    - _VertexWaveAnimation: 20
+    - _VertexWaveEnabled: 1
+    - _VertexWaveNoiseVerticalMaskPower: 0.8
+    - _VertexWaveNoiseVerticalMaskRemapMax: 1
+    - _VertexWaveNoiseVerticalMaskRemapMin: 0.1
+    - _VertexWaveOffset: 0
+    - _VertexWaveScale: 2
+    - _VerticalColour: 1
+    - _VerticalColourHueShift: 0
+    - _VerticalColourMaskPower: 0.4
+    - _VerticalColourMaskRemapMax: 0.5
+    - _VerticalColourMaskRemapMin: 0.8
+    - _VerticalColourSaturationShift: 0
+    - _VerticalColourValueMultiplier: 5
+    - _VerticalMask: 1
+    - _VerticalMask1: 1
+    - _VerticalMask1ObjectSpaceOffset: 0
+    - _VerticalMask1ObjectSpaceScale: 2
+    - _VerticalMask1Power: 0.5
+    - _VerticalMask1RemapMax: 1
+    - _VerticalMask1RemapMin: 0.7
+    - _VerticalMask1Subtractive: 1
+    - _VerticalMask2: 1
+    - _VerticalMask2ObjectSpaceOffset: -1
+    - _VerticalMask2ObjectSpaceScale: 2
+    - _VerticalMask2Power: 2
+    - _VerticalMask2RemapMax: 0.5
+    - _VerticalMask2RemapMin: 0
+    - _VerticalMask2Subtractive: 0
+    - _VerticalMaskObjectSpace: 1
+    - _VerticalMaskObjectSpace1: 0
+    - _VerticalMaskObjectSpaceOffset: -1
+    - _VerticalMaskObjectSpaceOffseth: 0
+    - _VerticalMaskObjectSpaceScale: 2
+    - _VerticalMaskPower: 8
+    - _VerticalMaskRemapMax: 1
+    - _VerticalMaskRemapMin: 0
+    - _VerticalMaskSubtractive: 0
+    - _VerticalMasksObjectSpace: 1
+    - _WorldSpaceUVs: 0
+    m_Colors:
+    - _ColourA: {r: 1, g: 0.1254902, b: 0, a: 1}
+    - _ColourB: {r: 1, g: 0.02745098, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskDistortionAnimation: {r: 0, g: 2, b: 0, a: 0}
+    - _MaskDistortionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskDistortionParticleAnimation: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskDistortionTiling: {r: 1.5, g: 1, b: 1, a: 0}
+    - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskTiling: {r: 1.5, g: 1, b: 0, a: 0}
+    - _NoiseAnimation: {r: 0, g: 4, b: 1, a: 0}
+    - _NoiseDistortionAnimation: {r: 0, g: 1, b: 0, a: 0}
+    - _NoiseDistortionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseDistortionParticleAnimation: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseDistortionTiling: {r: 1.5, g: 1, b: 1, a: 0}
+    - _NoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseParticleAnimation: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseTiling: {r: 1.5, g: 1, b: 1, a: 0}
+    - _RadialMaskDistortionAnimation: {r: 0, g: 2, b: 0, a: 0}
+    - _RadialMaskDistortionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RadialMaskDistortionParticleAnimation: {r: 0, g: 0, b: 0, a: 0}
+    - _RadialMaskDistortionTiling: {r: 1.5, g: 1, b: 1, a: 0}
+    - _RadialMaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RadialMaskTiling: {r: 1.5, g: 1, b: 0, a: 0}
+    - _SpherizeNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpherizeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TransformDelta: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector3: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexNoiseAnimation: {r: 0, g: 4, b: 0, a: 10}
+    - _VertexNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexNoiseParticleAnimation: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexNoiseTiling: {r: 1, g: 1, b: 1, a: 0}
+    - _VertexOffsetOverCircularY: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetOverY1: {r: -0, g: -0, b: -0, a: 0}
+    - _VertexOffsetOverY2: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetOverY3: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetoverY: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetoverY1: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetoverY2: {r: 0, g: 0, b: 0, a: 0}
+    - _VerticalColourA: {r: 0, g: 0.5019608, b: 1, a: 1}
+    - _VerticalColourB: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

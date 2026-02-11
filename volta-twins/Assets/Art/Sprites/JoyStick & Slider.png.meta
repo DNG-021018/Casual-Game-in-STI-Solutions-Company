@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 15cf8fd160ceb0344972ff2d878a369e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JoyStick & Slider_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 631
+        width: 883
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919045d759fbf74c882535e7ab426db
+      internalID: -2125785921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoyStick & Slider_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133719e181a41c8459c3b44a4939ce2d
+      internalID: -1765518928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoyStick & Slider_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 496
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b97841355c86174cbd2ad3aa62105e5
+      internalID: 1824970579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoyStick & Slider_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 346
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c027eaab33d87438498c96bba36171
+      internalID: -1208970441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoyStick & Slider_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 883
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8decadffca3152646ab2ece8d2dc1640
+      internalID: -365715113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5cdcc624d97393c48b9a7096366ca685
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JoyStick & Slider_0: -2125785921
+      JoyStick & Slider_1: -1765518928
+      JoyStick & Slider_10: 133175187
+      JoyStick & Slider_11: 240127843
+      JoyStick & Slider_12: -52950418
+      JoyStick & Slider_13: 721798978
+      JoyStick & Slider_14: 1887607906
+      JoyStick & Slider_15: -639289338
+      JoyStick & Slider_16: 2005168752
+      JoyStick & Slider_17: 280339158
+      JoyStick & Slider_18: 134214726
+      JoyStick & Slider_19: 1537352963
+      JoyStick & Slider_2: 1824970579
+      JoyStick & Slider_20: -831028083
+      JoyStick & Slider_21: -164861997
+      JoyStick & Slider_22: 1628669023
+      JoyStick & Slider_23: 1433437861
+      JoyStick & Slider_24: -18064453
+      JoyStick & Slider_25: 879637687
+      JoyStick & Slider_26: 863887123
+      JoyStick & Slider_27: -1522258658
+      JoyStick & Slider_28: -2117374753
+      JoyStick & Slider_29: -2110024561
+      JoyStick & Slider_3: -365715113
+      JoyStick & Slider_30: 1985021657
+      JoyStick & Slider_31: 1132219755
+      JoyStick & Slider_32: 329420817
+      JoyStick & Slider_33: -479620625
+      JoyStick & Slider_34: -1493751651
+      JoyStick & Slider_35: -1208970441
+      JoyStick & Slider_4: 2048221492
+      JoyStick & Slider_5: 1746912160
+      JoyStick & Slider_6: -1021002948
+      JoyStick & Slider_7: -790605172
+      JoyStick & Slider_8: 1630441398
+      JoyStick & Slider_9: 713484033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

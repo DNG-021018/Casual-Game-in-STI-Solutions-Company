@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21747aa6fe8f5924897028c316aa307f, type: 3}
+  m_Name: Normal_SegmentData
+  m_EditorClassIdentifier: 
+  originalPrefabs:
+  - {fileID: 1496206605153489137, guid: d70ad43bfa0e92f4889af3bdf897e649, type: 3}
+  - {fileID: 4578449583106746300, guid: 6e9a7b0ffbeb02f4f9a6ec8d617697de, type: 3}
+  - {fileID: 7439876431261069107, guid: 42b28e8a32694a34aa310a897dfb5f51, type: 3}
+  - {fileID: 1316528748000420380, guid: cf9d8dc8b387ca64f814c86d9839b12d, type: 3}
+  - {fileID: 6197908032400830668, guid: ce89e6d16c5632e48a684a81ed7f1b03, type: 3}
+  mirrorPrefabs:
+  - {fileID: 3129355570418019295, guid: de21f4ddc98a97d4084c70f269842d54, type: 3}
+  - {fileID: 689135759111004654, guid: 3970f8cdf7c4b974e970b37b4c223a93, type: 3}
+  - {fileID: 3286977016192253761, guid: 1ee0fb6a8f879df4996cdcba92ff1f48, type: 3}
+  - {fileID: 4013171789427797724, guid: 51dae1668733af6418d0e5ede24cc9df, type: 3}
+  - {fileID: 5708876706805117367, guid: ac08ff50acdd9a44e9bb21168bd75ba5, type: 3}
+  preloadPerPrefab: 10
+  segmentsOnScreen: 10
+  moveSpeed: 10
+  segmentSpacing: 60
+  timeLimit: 60

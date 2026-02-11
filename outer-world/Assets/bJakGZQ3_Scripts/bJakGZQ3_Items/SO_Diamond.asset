@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81a9bde9681bb64a973c385b438f380, type: 3}
+  m_Name: SO_Diamond
+  m_EditorClassIdentifier: 
+  itemType: 3
+  MinItemRequire: 2
+  MaxItemRequire: 3
+  OxyBonus: 10
+  itemIcon: {fileID: -1650068342, guid: 893e54cd03fed6e4ba09ab45715503ee, type: 3}
+  clip:
+  - {fileID: 8300000, guid: 0e4250da5b9f6d747bf0b8bb05ba6444, type: 3}
+  - {fileID: 8300000, guid: c76caac884688ce48968669c53479598, type: 3}
+  - {fileID: 8300000, guid: 289471dc88df1494c8343b5c727f4966, type: 3}
+  - {fileID: 8300000, guid: a8c0fc2600d98154fa142f2c6ac63413, type: 3}
+  monsterClip: {fileID: 8300000, guid: 38654db6239b0614b8711a72a20f895f, type: 3}

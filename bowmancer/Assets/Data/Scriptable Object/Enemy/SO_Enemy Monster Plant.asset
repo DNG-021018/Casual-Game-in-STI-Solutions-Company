@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f1dd50515c1f84dac870471fa58044, type: 3}
+  m_Name: SO_Enemy Monster Plant
+  m_EditorClassIdentifier: 
+  physics: {fileID: 11400000, guid: 02f3863d936dbce4b8b034bc4e1e0003, type: 2}
+  health: 100
+  attackPower: 4
+  MoveSpeed: 8
+  RotationSpeed: 120
+  MoveClip: {fileID: 0}
+  AttackClip: {fileID: 0}
+  HitClip: {fileID: 0}
+  DieClip: {fileID: 8300000, guid: 15c2cd8827045d34092666e2171ae38e, type: 3}

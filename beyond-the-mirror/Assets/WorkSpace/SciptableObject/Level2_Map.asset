@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21747aa6fe8f5924897028c316aa307f, type: 3}
+  m_Name: Level2_Map
+  m_EditorClassIdentifier: 
+  originalPrefabs:
+  - {fileID: 1478795356431850275, guid: 5e3ded165bd6b274b8e8edaab949c40f, type: 3}
+  - {fileID: 2113972646935144383, guid: 7afa230de63c32e4ba35379b859db440, type: 3}
+  - {fileID: 8536512014640342018, guid: f5e613e9b9db6e34186a3e9ce33fe04b, type: 3}
+  - {fileID: 1871953060720165703, guid: d33a762d474fd624ba297fe22cdf82dc, type: 3}
+  - {fileID: 8961064880794351951, guid: 34338904d23a1e9428f1b292975dddea, type: 3}
+  mirrorPrefabs:
+  - {fileID: 5006324202466117338, guid: f48b24edb06d22b4d9f16c1b9ba010c5, type: 3}
+  - {fileID: 5587824765583907174, guid: 352b88a55fb7de04184f38121c6ffec0, type: 3}
+  - {fileID: 7347455330411968844, guid: 0c77fa5ddc7669e4db56d875e92bd5d9, type: 3}
+  - {fileID: 2654709668035319908, guid: 9e9c8256ac47e3b4dbfdefdbe5ca5d39, type: 3}
+  - {fileID: 7795448451014849131, guid: f4431bd88042f8c4286b349f7a407b5d, type: 3}
+  preloadPerPrefab: 10
+  segmentsOnScreen: 10
+  moveSpeed: 15
+  segmentSpacing: 60
+  timeLimit: 120

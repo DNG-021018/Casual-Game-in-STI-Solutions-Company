@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/WorkSpace/Scene/MakeUI.unity
+    guid: d280008a44a674147b40d4264e3d2d16
+  - enabled: 1
+    path: Assets/WorkSpace/Scene/DragonTest.unity
+    guid: b5146e8f0b6829f439cad59e10ce026f
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 941ecebe9fdd54a44997e9e176a1ea21, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: eb1d81f9d46a08b4ebba62d8f99cf286, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: de107a568b86c764783fe4c7f73eee4b, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

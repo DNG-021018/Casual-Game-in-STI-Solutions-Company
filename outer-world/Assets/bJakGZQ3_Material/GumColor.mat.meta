@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4a9d2ed3e511ede488001e6406f116c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200599
+  packageName: Cute Astronauts
+  packageVersion: 1.5
+  assetPath: Assets/Cute Astronauts/Materials/GumColor.mat
+  uploadId: 703466

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 52c0d3bf7d4243843ba7d47d185bd072
+timeCreated: 1502731495
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98020
+  packageName: Outline Toolkit
+  packageVersion: 1.0.5
+  assetPath: Assets/OutlineToolkit/Material/Outline.mat
+  uploadId: 210698
